@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  }
+  
+  h1 {
+    color: #265a8f;
+    margin: 1vh 1vw;
+  }
+  
+  header {
+    display: flex;
+    height: 8vh;
+    border-bottom: 1px solid #162f51;
+    align-items: center;
+  }
+  
+  header img {
+    width: 15vw;
+    height: auto;
+  }
+  
+  p {
+    margin: 1vh;
+    width: 60vw;
+  }
+  
+  main {
+    margin-top: 3vh;
+  }
+  
+  iframe {
+    margin: 2vh;
+  }
+  
+  .img-container {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    margin: 0 1vw;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .instructions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
